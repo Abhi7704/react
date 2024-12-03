@@ -37,11 +37,13 @@
 
 import React from 'react'
 import First from './Components/ClassComponents/First.jsx'
+import Decrement from './Components/ClassComponents/Decrement.jsx'
 
 const App = () => {
   return (
     <div>
-      <First/>
+      {/* <First/> */}
+      <Decrement/>
     </div>
   )
 }
