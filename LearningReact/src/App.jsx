@@ -38,12 +38,18 @@
 import React from 'react'
 import First from './Components/ClassComponents/First.jsx'
 import Decrement from './Components/ClassComponents/Decrement.jsx'
+import Addition from './Components/ClassComponents/First.jsx'
+import FirstFunc from './Components/FunctionalComponents/FirstFunc.jsx'
+import DecrementFunc from './Components/FunctionalComponents/DecrementFunc.jsx'
 
 const App = () => {
   return (
     <div>
       {/* <First/> */}
-      <Decrement/>
+      {/* <Decrement/>
+      <FirstFunc/> */}
+
+      <DecrementFunc/>
     </div>
   )
 }
